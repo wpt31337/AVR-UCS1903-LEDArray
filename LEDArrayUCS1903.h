@@ -274,7 +274,7 @@
 
 #if !defined(F_CPU)
 
-#error F_CPU symbol not defined - sorry only spec
+#error F_CPU symbol not defined - required compile flag!
 
 #endif
 
