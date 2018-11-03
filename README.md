@@ -11,4 +11,4 @@ Pin defines are required for boards other than the Uno or Mega. See the header f
 
 The default is for the code to block interupts when sending data on the digital pin. If that messes up other code that needs interrupts enable at all times, then you can disable that behavior with #define NO_INTERRUPTS. That will likely cause issues with the LED arrays that show up as periodic colors pops but atleast it wont mess with your other code.
 
-See the examples for usage. Its pretty simple stuff. Hope this helps someone - was fun to play around with.
+See the examples for usage. Its pretty simple stuff. Add the folder to your Arduino libraries folder and you're off and running. Hope this helps someone - was fun to play around with.
